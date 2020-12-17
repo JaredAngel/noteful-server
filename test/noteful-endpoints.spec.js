@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 const knex = require('knex');
-const fixtures = require('./bookmarks-fixtures');
+const fixtures = require('./noteful.fixtures');
 const app = require('../src/app');
 
 describe('Bookmarks Endpoints', () => {
